@@ -14,7 +14,7 @@ public class SumOfDigits {
         int rest = number - a*100;
         int b=rest/10;
         int rest1=rest -b*10;
-           System.out.println(a+b+rest1);
+           System.out.println("Sum of digits: " +(a+b+rest1));
         }
         else {
             System.out.println("Number isn't between 0 and 999.");
