@@ -11,34 +11,34 @@ public class DayOfWeek {
         switch (number){
 
             case 1 :{
-               System.out.print("Day of week:Monday");
+               System.out.print("Day of week: Monday");
                 break;
             }
             case 2:{
-                System.out.print("Day of week:Tuesday");
+                System.out.print("Day of week: Tuesday");
                 break;
             }
             case 3:{
-                System.out.print("Day of week:Wednesday");
+                System.out.print("Day of week: Wednesday");
                 break;
             }
             case 4:{
-                System.out.print("Day of week:Thursday");
+                System.out.print("Day of week: Thursday");
                 break;
             }
             case 5:{
-                System.out.print("Day of week:Friday");
+                System.out.print("Day of week: Friday");
                 break;
             }
             case 6:{
-                System.out.print("Day of week:Saturday");
+                System.out.print("Day of week: Saturday");
                 break;
             }
             case 7:{
-                System.out.print("Day of week:Sunday");
+                System.out.print("Day of week: Sunday");
                 break;
             }
-            default: System.out.print("Invalid day");
+            default: System.out.print("Day of week: Invalid day");
         }
 
     }
