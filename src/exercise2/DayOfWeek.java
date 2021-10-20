@@ -8,15 +8,37 @@ public class DayOfWeek {
         System.out.println("Enter a number:");
         int number = user_input.nextInt();
 
-        switch (number) {
-            case 1 -> System.out.print("Day of week:Monday");
-            case 2 -> System.out.print("Day of week:Tuesday");
-            case 3 -> System.out.print("Day of week:Wednesday");
-            case 4 -> System.out.print("Day of week:Thursday");
-            case 5 -> System.out.print("Day of week:Friday");
-            case 6 -> System.out.print("Day of week:Saturday");
-            case 7 -> System.out.print("Day of week:Sunday");
-            default -> System.out.print("Day of week:Invalid day");
+        switch (number){
+
+            case 1 :{
+               System.out.print("Day of week:Monday");
+                break;
+            }
+            case 2:{
+                System.out.print("Day of week:Tuesday");
+                break;
+            }
+            case 3:{
+                System.out.print("Day of week:Wednesday");
+                break;
+            }
+            case 4:{
+                System.out.print("Day of week:Thursday");
+                break;
+            }
+            case 5:{
+                System.out.print("Day of week:Friday");
+                break;
+            }
+            case 6:{
+                System.out.print("Day of week:Saturday");
+                break;
+            }
+            case 7:{
+                System.out.print("Day of week:Sunday");
+                break;
+            }
+            default: System.out.print("Invalid day");
         }
 
     }
