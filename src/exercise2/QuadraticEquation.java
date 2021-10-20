@@ -22,7 +22,7 @@ public class QuadraticEquation {
                 System.out.println("Imaginary values");
             }
         } else if (b != 0) {
-            double x = c / b;
+            double x = -c / b;
             System.out.println(x);
         } else if (c != 0) {
             System.out.print("No values");
